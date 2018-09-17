@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "aa": {
+            "trigger": "minecraft:tick"
+        },
+        "bb": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "aa"
+        ],
+        [
+            "bb"
+        ]
+    ],
+    "rewards": {
+        "function": "nomobfarmsurvival:load_nether"
+    }
+}
