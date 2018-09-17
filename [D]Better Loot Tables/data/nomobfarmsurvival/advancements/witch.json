@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "cc": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:witch"
+                },
+                "damage": {
+                    "dealt": {
+                        "min": 1,
+                        "max": 999
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cc"
+        ]
+    ],
+    "rewards": {
+        "function": "nomobfarmsurvival:witch"
+    }
+}
